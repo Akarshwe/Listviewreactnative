@@ -39,9 +39,29 @@
 // AppRegistry.registerComponent(appName, () => CustomFlatlist2);
 
 
+// import {AppRegistry} from 'react-native';
+// import Customflatlist2 from './Customflatlist2';
+// import {name as appName} from './app.json';
+
+// AppRegistry.registerComponent(appName, () => Customflatlist2);
+
+
+
+
 import {AppRegistry} from 'react-native';
-import Customflatlist2 from './Customflatlist2';
+import HomeScreen from './Homescreen';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => Customflatlist2);
+AppRegistry.registerComponent(appName, () => HomeScreen);
+
+
+
+
+// import {AppRegistry} from 'react-native';
+// import DetailScreen from './Detailscreen';
+// import {name as appName} from './app.json';
+
+// AppRegistry.registerComponent(appName, () => DetailScreen);
+
+
 
